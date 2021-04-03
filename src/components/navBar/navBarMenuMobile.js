@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import SpriteIcon from "../buttons/spriteIcon";
 import InfoButtons from "./infoButtons";
 
-const NavBarMenuMobile = ({showMenu = false, closeMenu}) => {
+const NavBarMenuMobile = ({showMenu = false, closeMenu, onChangeLanguage}) => {
   return (
     <div className={"nav-menu-mobile" + (showMenu ? " show-menu-mobile" : "")}>
       <HiX className="icon menu-icon" onClick={closeMenu} />
@@ -30,8 +30,22 @@ const NavBarMenuMobile = ({showMenu = false, closeMenu}) => {
         })}
         <InfoButtons middleware={closeMenu} />
         <div className="flags-mobile">
-          <SpriteIcon classname="flag" name="english" />
-          <SpriteIcon classname="flag" name="italian" />
+          <SpriteIcon
+            classname="flag"
+            name="english"
+            onClick={() => {
+              closeMenu();
+              onChangeLanguage("en");
+            }}
+          />
+          <SpriteIcon
+            classname="flag"
+            name="italian"
+            onClick={() => {
+              closeMenu();
+              onChangeLanguage("it");
+            }}
+          />
         </div>
       </ul>
     </div>
@@ -43,4 +57,5 @@ export default NavBarMenuMobile;
 NavBarMenuMobile.propTypes = {
   showMenu: PropTypes.bool,
   closeMenu: PropTypes.func.isRequired,
+  onChangeLanguage: PropTypes.func,
 };

@@ -245,6 +245,12 @@ p {
   visibility: visible;
 }
 
+.nav__actions {
+  display: none;
+  align-items: center;
+  column-gap: 30px;
+}
+
 @media screen and (min-width: 1024px) {
   .nav__list {
     display: flex;
@@ -253,6 +259,10 @@ p {
   .nav__item {
     font-size: 1.6rem;
     padding: 0 30px;
+  }
+
+  .nav__actions {
+    display: flex;
   }
 }
 

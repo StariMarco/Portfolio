@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="552" height="552" viewBox="0 0 552 552">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_2488" data-name="Rettangolo 2488" width="512" height="512" rx="100" transform="translate(154 165)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.21" y1="0.528" x2="1.002" y2="0.501" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.757"/>
+    </linearGradient>
+    <filter id="Ellisse_187" x="214" y="125" width="183" height="186" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.616"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellisse_188" x="201" y="321" width="58" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-2"/>
+      <feFlood flood-opacity="0.616"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellisse_189" x="96" y="331" width="58" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-opacity="0.616"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellisse_190" x="87" y="431" width="58" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-opacity="0.616"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Raggruppa_4415" data-name="Raggruppa 4415" transform="translate(-134 -145)">
+    <rect id="Rettangolo_2506" data-name="Rettangolo 2506" width="552" height="552" rx="100" transform="translate(134 145)" fill="#fff"/>
+    <g id="Gruppo_di_maschere_65" data-name="Gruppo di maschere 65" clip-path="url(#clip-path)">
+      <g id="Raggruppa_4414" data-name="Raggruppa 4414">
+        <g id="Raggruppa_4413" data-name="Raggruppa 4413">
+          <rect id="Rettangolo_2489" data-name="Rettangolo 2489" width="128" height="128" transform="translate(154 165)" fill="#e53b44"/>
+          <rect id="Rettangolo_2490" data-name="Rettangolo 2490" width="128" height="128" transform="translate(282 165)" fill="#fb922b"/>
+          <rect id="Rettangolo_2491" data-name="Rettangolo 2491" width="128" height="128" transform="translate(282 293)" fill="#63c64d"/>
+          <rect id="Rettangolo_2492" data-name="Rettangolo 2492" width="128" height="128" transform="translate(154 293)" fill="#e53b44"/>
+          <rect id="Rettangolo_2493" data-name="Rettangolo 2493" width="128" height="128" transform="translate(282 421)" fill="#63c64d"/>
+          <rect id="Rettangolo_2494" data-name="Rettangolo 2494" width="128" height="128" transform="translate(154 421)" fill="#63c64d"/>
+          <rect id="Rettangolo_2495" data-name="Rettangolo 2495" width="128" height="128" transform="translate(282 549)" fill="#e53b44"/>
+          <rect id="Rettangolo_2496" data-name="Rettangolo 2496" width="128" height="128" transform="translate(154 549)" fill="#0484d1"/>
+          <rect id="Rettangolo_2497" data-name="Rettangolo 2497" width="128" height="128" transform="translate(410 165)" fill="#e53b44"/>
+          <rect id="Rettangolo_2498" data-name="Rettangolo 2498" width="128" height="128" transform="translate(538 165)" fill="#63c64d"/>
+          <rect id="Rettangolo_2499" data-name="Rettangolo 2499" width="128" height="128" transform="translate(538 293)" fill="#ffe762"/>
+          <rect id="Rettangolo_2500" data-name="Rettangolo 2500" width="128" height="128" transform="translate(410 293)" fill="#ffe762"/>
+          <rect id="Rettangolo_2501" data-name="Rettangolo 2501" width="128" height="128" transform="translate(538 421)" fill="#0484d1"/>
+          <rect id="Rettangolo_2502" data-name="Rettangolo 2502" width="128" height="128" transform="translate(410 421)" fill="#ffe762"/>
+          <rect id="Rettangolo_2503" data-name="Rettangolo 2503" width="128" height="128" transform="translate(538 549)" fill="#fb922b"/>
+          <rect id="Rettangolo_2504" data-name="Rettangolo 2504" width="128" height="128" transform="translate(410 549)" fill="#0484d1"/>
+        </g>
+        <rect id="Rettangolo_2505" data-name="Rettangolo 2505" width="530" height="185.603" transform="translate(21.715 684.837) rotate(-48)" fill="url(#linear-gradient)"/>
+        <g transform="matrix(1, 0, 0, 1, 134, 145)" filter="url(#Ellisse_187)">
+          <g id="Ellisse_187-2" data-name="Ellisse 187" transform="translate(214 125)" fill="#e53b44" stroke="#fff" stroke-width="7">
+            <circle cx="91" cy="91" r="91" stroke="none"/>
+            <circle cx="91" cy="91" r="87.5" fill="none"/>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 134, 145)" filter="url(#Ellisse_188)">
+          <g id="Ellisse_188-2" data-name="Ellisse 188" transform="translate(201 321)" fill="#e53b44" stroke="#fff" stroke-width="3">
+            <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+            <circle cx="28.5" cy="28.5" r="27" fill="none"/>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 134, 145)" filter="url(#Ellisse_189)">
+          <g id="Ellisse_189-2" data-name="Ellisse 189" transform="translate(96 331)" fill="#e53b44" stroke="#fff" stroke-width="3">
+            <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+            <circle cx="28.5" cy="28.5" r="27" fill="none"/>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 134, 145)" filter="url(#Ellisse_190)">
+          <g id="Ellisse_190-2" data-name="Ellisse 190" transform="translate(87 431)" fill="#e53b44" stroke="#fff" stroke-width="3">
+            <circle cx="28.5" cy="28.5" r="28.5" stroke="none"/>
+            <circle cx="28.5" cy="28.5" r="27" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

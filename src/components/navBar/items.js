@@ -1,22 +1,22 @@
 export const items = [
   {
     id: 0,
-    label: "Home",
+    label: "home",
     url: "hero",
   },
   {
     id: 1,
-    label: "About",
+    label: "about",
     url: "about",
   },
   {
     id: 2,
-    label: "Projects",
+    label: "projects",
     url: "projects",
   },
   {
     id: 3,
-    label: "Contact",
+    label: "contact",
     url: "contact",
   },
 ];

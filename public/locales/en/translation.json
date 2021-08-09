@@ -1,3 +1,38 @@
 {
-  "about": "About"
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "hero.title": "Hi! I'm <br> Marco Stari",
+  "hero.subtitle": "I’m a front-end developer and I’m excited to help you build your {{subject}}",
+  "hero.primary_button": "Let's chat",
+  "hero.secondary_button": "Download Cv",
+
+  "about.title": "About me",
+  "about.description": "Marco is a guy who lives in Pordenone in Friuli Venezia Giulia, he has always been <strong>passionate</strong> about technology and in particular about <strong>programming.</strong><br><br>At 12 years old he started creating his first videogames with GameMaker and from that moment on he never stopped coding. He studied at the <strong>ITST J.F. Kennedy of Pordenone</strong>, specializing in computer science, during which he acquired more in-depth technical knowledge on both the HW and SW side.<br><br>In the meantime he keeps on <strong>making experience creating various projects</strong> using: c/c++, java, c# with Unity and Xamarin, html/css/js, React js, dart with Flutter, python, shell-script.<br><br>Some of these also become real apps being also published in the android play store.<br>Now he is ready to take the leap and <strong>create projects of larger scale.</strong>",
+  "experience": "🧑🏼‍💻 Experience",
+  "energy": "⚡️ Energy",
+  "passion": "🔥 Passion",
+  "desire_to_learn": "🧠 Desire to learn",
+
+  "front-end": "Front-End",
+  "back-end": "Back-End",
+  "design": "Design",
+
+  "front-end.subtitle": "I like to turn abstract concepts into something real through a GUI :)",
+  "front-end.text": "Since I was a kid, I’ve always been a fan of order, symmetry and comfort.<br><br>I see programming web or mobile programs/apps as kind of art that reaches its glory when it is easily understood by the user. You also need to keep the various tools in order so that you can find them again and easily understand how they work when you want to reuse them.",
+  "back-end.subtitle": "A stunning Front-End is nothing without a solid Back-End.",
+  "back-end.text": "The Back-End has never been my main interest, but I’ve always seen it as a key part of my work and therefore I’ve always tried to deepen my knowledge in this sector.",
+  "design.subtitle": "I love crafting and studying design to offer the best user experience possible.",
+  "design.text": "My interest in design started while creating my first games and apps. I’ve always enjoyed making my projects look pretty as well as functional.<br><br>As a result, alongside my programming studies, I also started studying the basic aspects of design and the psychology behind it.",
+
+  "my_projects": "My Projects",
+
+  "contact.title": "Let’s get in touch",
+  "email": "Email",
+  "phone": "Phone",
+  "LinkedIn": "LinkedIn",
+
+  "information": "Information"
 }

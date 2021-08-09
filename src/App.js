@@ -8,7 +8,7 @@ import Contact from "./sections/contact";
 
 import "./core/i18n";
 import {useTranslation} from "react-i18next";
-import {Trans} from "react-i18next";
+import Footer from "./sections/footer";
 
 const App = () => {
   const {i18n} = useTranslation();
@@ -26,6 +26,7 @@ const App = () => {
           <About />
           <Projects />
           <Contact />
+          <Footer />
         </div>
       </Router>
     </>

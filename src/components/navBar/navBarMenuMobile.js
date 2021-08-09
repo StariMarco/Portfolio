@@ -6,6 +6,7 @@ import {HiX} from "react-icons/hi";
 import PropTypes from "prop-types";
 import SpriteIcon from "../buttons/spriteIcon";
 import InfoButtons from "./infoButtons";
+import {Trans} from "react-i18next";
 
 const NavBarMenuMobile = ({showMenu = false, closeMenu, onChangeLanguage}) => {
   return (
@@ -24,7 +25,7 @@ const NavBarMenuMobile = ({showMenu = false, closeMenu, onChangeLanguage}) => {
               key={index}
               onClick={closeMenu}
             >
-              {item.label}
+              <Trans i18nKey={item.label}>{item.label}</Trans>
             </Link>
           );
         })}

@@ -1,15 +1,17 @@
 import React, {useState, useEffect} from "react";
-import {MAX_MOBILE_SIZE, NAV_BAR_HEIGHT} from "../../core/constants";
+import {NAV_BAR_MAX_MOBILE_SIZE, NAV_BAR_HEIGHT} from "../../core/constants";
 import {Link} from "react-scroll";
 
-const Logo = () => {
+const Logo = ({disableMobile = false}) => {
   const [isMobile, setIsMobile] = useState(false);
 
   const updateLogo = () => {
-    setIsMobile(window.innerWidth < MAX_MOBILE_SIZE);
+    setIsMobile(window.innerWidth < NAV_BAR_MAX_MOBILE_SIZE);
   };
 
   useEffect(() => {
+    if (disableMobile) return;
+
     updateLogo();
     window.addEventListener("resize", updateLogo);
 

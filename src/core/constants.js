@@ -1,4 +1,4 @@
-export const MAX_MOBILE_SIZE = 1024;
+export const NAV_BAR_MAX_MOBILE_SIZE = 890;
 export const NAV_BAR_HEIGHT = 80;
 export const colorPrimary = "#66da95";
 export const colorBackground = "#242629";

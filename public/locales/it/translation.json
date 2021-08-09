@@ -1,3 +1,38 @@
 {
-  "about": "Chi sono"
+  "home": "Home",
+  "about": "Chi sono",
+  "projects": "Progetti",
+  "contact": "Contattami",
+
+  "hero.title": "Ciao! Sono <br> Marco Stari",
+  "hero.subtitle": "Sono uno sviluppatore front-end e non vedo l'ora di lavorare al tuo {{subject}}",
+  "hero.primary_button": "Contattami",
+  "hero.secondary_button": "Scarica Cv",
+
+  "about.title": "Chi sono",
+  "about.description": "Marco è un ragazzo che vive a Pordenone in Friuli Venezia Giulia, da sempre <strong>appassionato</strong> di tecnologia ed in particolare <strong>della programmazione</strong>.<br><br>A 12 anni inizia a creare i suoi primi videogiochi con GameMaker e da quel momento non smette più di programmare. Conduce gli studi al <strong>ITST J.F. Kennedy di Pordenone</strong>, indirizzo informatica, durante i quali acquisisce conoscenze tecniche più approfondite sia sul lato HW che sul lato SW.<br><br>Nel mentre continua a <strong>fare esperienza creando vari progetti</strong> usando: c/c++, java, c# con Unity e Xamarin, html/css/js, React js, dart con Flutter, python, shell-script.<br><br>Alcuni di questi diventano anche app vere e proprie venendo anche pubblicate nel play store android.<br>Ora è pronto a fare il salto di qualità e a <strong>creare progetti di scala maggiore.</strong>",
+  "experience": "🧑🏼‍💻 Esperienza",
+  "energy": "⚡️ Energia",
+  "passion": "🔥 Passione",
+  "desire_to_learn": "🧠 Voglia di imparare",
+
+  "front-end": "Front-End",
+  "back-end": "Back-End",
+  "design": "Design",
+
+  "front-end.subtitle": "Mi piace trasformare dei concetti astratti in qualcosa di reale attraverso una GUI :)",
+  "front-end.text": "Fin da piccolo sono sempre stato un amante dell’ordine, della simmetria e della comodità.<br><br>Programmare programmi/applicazioni web o mobile lo vedo un po’ come un’arte che raggiunge il suo splendore quando è compresa con facilità dall’utente. È inoltre necessario tenere i vari strumenti in ordine per poterli ritrovare e capire facilmente il loro funzionamento quando si vuole riutilizzarli.",
+  "back-end.subtitle": "Un fantastico Front-End non è niente senza un solido Back-End",
+  "back-end.text": "Il Back-End non è mai stato il mio interesse principale, ma l’ho sempre visto come una parte fondamentale per del mio lavoro e di conseguenza ho sempre cercato di approfondire le mie conoscenze su questo ambito.",
+  "design.subtitle": "Adoro creare e studiare design per offrire all’utente la migliore esperienza possibile.",
+  "design.text": "La mia passione per il design è nata mentre creavo i miei primi giochi e applicazioni.  Mi è sempre piaciuto rendere i miei progetti esteticamente belli e funzionali.<br><br>Di conseguenza, oltre a studiare la programmazione mi sono messo a studiare anche i vari aspetti base del design e della psicologia che ci sta dietro.",
+
+  "my_projects": "Progetti",
+
+  "contact.title": "Mettiamoci in contatto",
+  "email": "Email",
+  "phone": "Telefono",
+  "LinkedIn": "LinkedIn",
+
+  "information": "Informazioni"
 }

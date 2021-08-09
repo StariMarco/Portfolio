@@ -9,6 +9,7 @@ import InfoButtons from "./infoButtons";
 import SpriteIcon from "../buttons/spriteIcon";
 import PropTypes from "prop-types";
 import i18next from "i18next";
+import {Trans} from "react-i18next";
 
 const NavBar = ({onChangeLanguage}) => {
   const [isCollapsed, setIsCollapsed] = useState(true);
@@ -45,7 +46,7 @@ const NavBar = ({onChangeLanguage}) => {
                   key={index}
                   style={style}
                 >
-                  {item.label}
+                  <Trans i18nKey={item.label}>{item.label}</Trans>
                 </Link>
               );
             })}

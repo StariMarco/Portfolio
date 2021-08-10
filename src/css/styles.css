@@ -1049,9 +1049,13 @@ p {
 
 .modal__video-container {
   height: 250px;
-  background-color: yellow;
+  background-color: var(--color-background);
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   margin: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  position: relative;
 }
 
 .modal__description-container {
@@ -1070,7 +1074,7 @@ p {
   padding: 2px;
   margin: 5px;
   border-radius: 180px;
-  color: var(--color-background);
+  color: var(--color-light-gray);
 }
 
 .modal__close-icon:hover {
@@ -1078,12 +1082,14 @@ p {
 }
 
 @media screen and (min-width: 900px) {
-  .modal__video-container {
-    height: 380px;
-  }
-
   .modal__description-container {
     padding: 10px 30px 0px 30px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .modal__video-container {
+    height: 380px;
   }
 }
 
@@ -1171,4 +1177,21 @@ p {
   .my-markdown h3 {
     font-size: 1.8rem;
   }
+}
+
+/* Media Player */
+.react-player {
+  z-index: 50;
+}
+
+.player__loading {
+  z-index: 49;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -3,15 +3,30 @@ import PropTypes from "prop-types";
 import ProjectTag from "./projectTag";
 import ProjectModal from "../modals/projectModal";
 
-const ProjectCard = ({id = 0, title = "", tags = [], image = "", logo = "", height = 500}) => {
+const ProjectCard = ({project}) => {
   const [showModal, setShowModal] = useState(false);
-  const imageStile = {height: height, transform: "rotate(-30deg)"};
 
   const openModal = () => {
     // setShowModal((prev) => !prev);
     document.body.style.overflow = "hidden";
     setShowModal(true);
   };
+
+  if (project === undefined || project === null) return <></>;
+
+  const {
+    id = 0,
+    title = "",
+    tags = [],
+    image = "",
+    logo = "",
+    height = 500,
+    source,
+    videoUrl = "",
+    rotate = true,
+    imageType = "png",
+  } = project;
+  const imageStile = {height: height, transform: rotate ? "rotate(-30deg)" : "rotate(0deg)"};
 
   return (
     <>
@@ -27,14 +42,14 @@ const ProjectCard = ({id = 0, title = "", tags = [], image = "", logo = "", heig
         <div className="project-card__image">
           <picture>
             <source
-              type="image/png"
-              srcSet={`assets/mockups/${image}.png 1x, assets/mockups/${image}@2x.png 2x`}
+              type={"image/" + imageType}
+              srcSet={`assets/mockups/${image}.${imageType} 1x, assets/mockups/${image}@2x.${imageType} 2x`}
               className="project-picture"
               style={imageStile}
             />
             <img
               className="hero__image"
-              src={`assets/mockups/${image}.png`}
+              src={`assets/mockups/${image}.${imageType}`}
               alt="The cover image of the project"
               className="project-picture"
               style={imageStile}
@@ -45,7 +60,7 @@ const ProjectCard = ({id = 0, title = "", tags = [], image = "", logo = "", heig
           </div>
         </div>
       </article>
-      <ProjectModal showModal={showModal} setShowModal={setShowModal} title={title} />
+      <ProjectModal showModal={showModal} setShowModal={setShowModal} title={title} source={source} videoUrl={videoUrl} />
     </>
   );
 };
@@ -53,9 +68,5 @@ const ProjectCard = ({id = 0, title = "", tags = [], image = "", logo = "", heig
 export default ProjectCard;
 
 ProjectCard.propTypes = {
-  title: PropTypes.string,
-  image: PropTypes.string,
-  tags: PropTypes.array,
-  id: PropTypes.number,
-  height: PropTypes.number,
+  project: PropTypes.object.isRequired,
 };

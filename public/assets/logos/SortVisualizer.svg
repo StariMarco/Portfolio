@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540.683" height="540.683" viewBox="0 0 540.683 540.683">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Tracciato_5022" data-name="Tracciato 5022" d="M92.754,0H419.246A92.754,92.754,0,0,1,512,92.754V419.246A92.754,92.754,0,0,1,419.246,512H92.754A92.754,92.754,0,0,1,0,419.246V92.754A92.754,92.754,0,0,1,92.754,0Z" transform="translate(932 1721)" fill="#292a2d"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_4418" data-name="Raggruppa 4418" transform="translate(-917.659 -1706.659)">
+    <path id="Tracciato_5023" data-name="Tracciato 5023" d="M97.95,0H442.733a97.95,97.95,0,0,1,97.95,97.95V442.733a97.95,97.95,0,0,1-97.95,97.95H97.95A97.95,97.95,0,0,1,0,442.733V97.95A97.95,97.95,0,0,1,97.95,0Z" transform="translate(917.659 1706.659)" fill="#292a2d"/>
+    <path id="Tracciato_5021" data-name="Tracciato 5021" d="M92.754,0H419.246A92.754,92.754,0,0,1,512,92.754V419.246A92.754,92.754,0,0,1,419.246,512H92.754A92.754,92.754,0,0,1,0,419.246V92.754A92.754,92.754,0,0,1,92.754,0Z" transform="translate(932 1721)" fill="#292a2d"/>
+    <g id="Gruppo_di_maschere_66" data-name="Gruppo di maschere 66" clip-path="url(#clip-path)">
+      <g id="Raggruppa_4417" data-name="Raggruppa 4417">
+        <g id="Rettangolo_2508" data-name="Rettangolo 2508" transform="translate(932 2021)" fill="#e53b44" stroke="#292a2d" stroke-width="4">
+          <rect width="128" height="212" stroke="none"/>
+          <rect x="2" y="2" width="124" height="208" fill="none"/>
+        </g>
+        <g id="Rettangolo_2509" data-name="Rettangolo 2509" transform="translate(1060 1918)" fill="#fff" stroke="#292a2d" stroke-width="4">
+          <rect width="128" height="315" stroke="none"/>
+          <rect x="2" y="2" width="124" height="311" fill="none"/>
+        </g>
+        <g id="Rettangolo_2510" data-name="Rettangolo 2510" transform="translate(1188 2075)" fill="#0484d1" stroke="#292a2d" stroke-width="4">
+          <rect width="128" height="158" stroke="none"/>
+          <rect x="2" y="2" width="124" height="154" fill="none"/>
+        </g>
+        <g id="Rettangolo_2511" data-name="Rettangolo 2511" transform="translate(1316 1991)" fill="#ffe762" stroke="#292a2d" stroke-width="4">
+          <rect width="128" height="242" stroke="none"/>
+          <rect x="2" y="2" width="124" height="238" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

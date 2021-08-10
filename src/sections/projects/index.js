@@ -11,7 +11,7 @@ const Projects = () => {
       </h2>
       <div className="projects__grid">
         {ProjectList.map((project) => {
-          return <ProjectCard {...project} key={project.id} />;
+          return <ProjectCard project={project} key={project.id} />;
         })}
       </div>
     </div>

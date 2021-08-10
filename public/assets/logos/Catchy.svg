@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="39.5" viewBox="0 0 46 39.5">
+  <defs>
+    <filter id="Ellisse_193" x="19" y="0" width="27" height="27" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.694"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellisse_193-2" x="0" y="0" width="27" height="27" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.694"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Raggruppa_4422" data-name="Raggruppa 4422" transform="translate(-4638.5 -5311.5)">
+    <g id="Rettangolo_2512" data-name="Rettangolo 2512" transform="translate(4642 5312)" fill="#fff" stroke="#000" stroke-width="3">
+      <rect width="39" height="39" rx="5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="36" height="36" rx="3.5" fill="none"/>
+    </g>
+    <g id="Raggruppa_4420" data-name="Raggruppa 4420" transform="translate(19 43)">
+      <g transform="matrix(1, 0, 0, 1, 4619.5, 5268.5)" filter="url(#Ellisse_193)">
+        <g id="Ellisse_193-3" data-name="Ellisse 193" transform="translate(23.5 4.5)" fill="#fff" stroke="#000" stroke-width="1">
+          <circle cx="9" cy="9" r="9" stroke="none"/>
+          <circle cx="9" cy="9" r="8.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Ellisse_194" data-name="Ellisse 194" cx="1" cy="1" r="1" transform="translate(4651 5281)"/>
+    </g>
+    <g id="Raggruppa_4421" data-name="Raggruppa 4421" transform="translate(0 43)">
+      <g transform="matrix(1, 0, 0, 1, 4638.5, 5268.5)" filter="url(#Ellisse_193-2)">
+        <g id="Ellisse_193-4" data-name="Ellisse 193" transform="translate(4.5 4.5)" fill="#fff" stroke="#000" stroke-width="1">
+          <circle cx="9" cy="9" r="9" stroke="none"/>
+          <circle cx="9" cy="9" r="8.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Ellisse_194-2" data-name="Ellisse 194" cx="1" cy="1" r="1" transform="translate(4651 5281)"/>
+    </g>
+  </g>
+</svg>

@@ -759,7 +759,6 @@ p {
 }
 
 .project-card {
-  background-color: var(--color-surface);
   border-radius: var(--border-radius);
   cursor: pointer;
   display: flex;
@@ -776,6 +775,7 @@ p {
 }
 
 .project-card__header {
+  background-color: var(--color-surface);
   padding: 16px;
   z-index: 15;
 }
@@ -802,7 +802,7 @@ p {
 .project-card__image {
   background-color: var(--color-surface-light);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
-  height: 280px;
+  max-height: 280px;
   display: flex;
   z-index: 5;
   align-items: center;
@@ -822,8 +822,10 @@ p {
 
 .project-card__tags {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   column-gap: 8px;
+  row-gap: 8px;
   margin-top: 16px;
 }
 
@@ -1040,7 +1042,7 @@ p {
   align-items: stretch;
   width: 100%;
   max-width: 900px;
-  margin: 60px 25px;
+  margin: 150px 25px;
   padding-bottom: 15px;
   background-color: var(--color-surface);
   border-radius: var(--border-radius);
@@ -1082,6 +1084,10 @@ p {
 }
 
 @media screen and (min-width: 900px) {
+  .project-modal__container {
+    margin: 60px 25px;
+  }
+
   .modal__description-container {
     padding: 10px 30px 0px 30px;
   }
@@ -1111,6 +1117,12 @@ p {
   font-size: 1.3rem;
 }
 
+.my-markdown ol {
+  color: white;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
 .my-markdown h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
@@ -1123,8 +1135,6 @@ p {
   font-size: 2.2rem;
   margin-bottom: 15px;
   margin-top: 20px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid var(--color-light-gray);
 }
 
 .my-markdown h3 {
@@ -1171,7 +1181,7 @@ p {
   }
 
   .my-markdown h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .my-markdown h3 {

@@ -30,7 +30,7 @@ const items = [
   {
     id: 2,
     title: "Tech4Gaming Deals",
-    tags: ["C#", "Xamarin"],
+    tags: ["C#", "Xamarin", "Node.js", "Express.js", "Heroku", "MongoDB"],
     source: tech4GamingDeals,
     videoUrl: "https://youtu.be/ynFy97n6mVc",
     image: "Tech4GamingDeals",

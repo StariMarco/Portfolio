@@ -47,7 +47,7 @@ h6 {
 }
 
 h1 {
-  font-size: 3.4rem;
+  font-size: 3.2rem;
   line-height: 1.4;
   margin-bottom: 13px;
 }
@@ -492,6 +492,20 @@ p {
   }
 }
 
+@media screen and (max-height: 700px) {
+  .hero__image-stack {
+    display: none;
+  }
+
+  .hero__content {
+    padding: 0 10%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 /* Buttons */
 .btn {
   background-color: transparent;
@@ -814,10 +828,6 @@ p {
 
 .project-card__image:hover {
   transform: scale(1.04);
-}
-
-.project-picture {
-  /* transform: rotate(-30deg); */
 }
 
 .project-card__tags {
@@ -1204,4 +1214,22 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Loading */
+.loading__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loading__logo {
+  width: 80px;
+}
+
+@media screen and (min-width: 900px) {
+  .loading__logo {
+    width: 120px;
+  }
 }

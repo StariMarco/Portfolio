@@ -73,7 +73,7 @@ const items = [
   {
     id: 6,
     title: "Portfolio",
-    tags: ["React", "JavaScript", "HTML", "CSS"],
+    tags: ["React", "JavaScript", "HTML", "CSS", "Netlify"],
     source: portfolio,
     videoUrl: "",
     image: "Portfolio",

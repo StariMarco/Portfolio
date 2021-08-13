@@ -40,6 +40,10 @@ function ProjectModal({showModal = false, setShowModal, source, videoUrl = ""}) 
 
   useEffect(() => {
     initLinks();
+
+    window.onpopstate = () => {
+      closeModal();
+    };
   });
 
   return (

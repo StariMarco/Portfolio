@@ -5,12 +5,12 @@
   "contact": "Contact",
 
   "hero.title": "Hi! I'm <br> Marco Stari",
-  "hero.subtitle": "I’m a front-end developer and I’m excited to help you build your project",
+  "hero.subtitle": "I’m a Full Stack developer and I’m excited to help you build your project",
   "hero.primary_button": "Let's chat",
   "hero.secondary_button": "Download Cv",
 
   "about.title": "About me",
-  "about.description": "Marco is a guy who lives in Pordenone in Friuli Venezia Giulia, he has always been <strong>passionate</strong> about technology and in particular about <strong>programming.</strong><br><br>At 12 years old he started creating his first videogames with GameMaker and from that moment on he never stopped coding. He studied at the <strong>ITST J.F. Kennedy of Pordenone</strong>, specializing in computer science, during which he acquired more in-depth technical knowledge on both the HW and SW side.<br><br>In the meantime he keeps on <strong>making experience creating various projects</strong> using: c/c++, java, c# with Unity and Xamarin, html/css/js, React js, dart with Flutter, python, shell-script.<br><br>Some of these also become real apps being also published in the android play store.<br>Now he is ready to take the leap and <strong>create projects of larger scale.</strong>",
+  "about.description": "Marco lives in Pordenone in Friuli Venezia Giulia, he has always been <strong>passionate</strong> about technology and in particular about <strong>programming.</strong><br><br>At 12 years old he started creating his first videogames with GameMaker and from that moment on he never stopped coding. He studied at the <strong>ITST J.F. Kennedy of Pordenone</strong>, specializing in computer science, during which he acquired more in-depth technical knowledge on both the HW and SW side.<br><br>In the meantime he keeps on <strong>making experience creating various projects</strong> using: c/c++, java, c# with Unity and Xamarin, html/css/js, React js, dart with Flutter, python, shell-script.<br><br>Some of these also become real apps being also published in the android play store.<br>Now he is ready to take the leap and <strong>create projects of larger scale.</strong>",
   "experience": "🧑🏼‍💻 Experience",
   "energy": "⚡️ Energy",
   "passion": "🔥 Passion",

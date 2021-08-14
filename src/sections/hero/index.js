@@ -26,9 +26,9 @@ const Hero = () => {
               <Link className="btn btn--primary" to="contact" smooth={true} offset={-NAV_BAR_HEIGHT} duration={500}>
                 <Trans i18nKey="hero.primary_button">Let's chat</Trans>
               </Link>
-              <a className="btn" href="#">
+              {/* <a className="btn" href="#">
                 <Trans i18nKey="hero.secondary_button">Download Cv</Trans>
-              </a>
+              </a> */}
             </div>
           </section>
         </header>

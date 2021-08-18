@@ -5,9 +5,6 @@ import {NAV_BAR_HEIGHT} from "../../core/constants";
 import HeroImage from "./heroImage";
 
 const Hero = () => {
-  // TODO: Text writing effect
-  // const [subtitleSubject, setSubtitleSubject] = useState("things");
-
   return (
     <div id="hero-wrapper">
       <div id="hero" className="container">

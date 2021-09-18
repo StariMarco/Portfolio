@@ -1,6 +1,7 @@
+import drinkolo from "../../markdowns/Drinkolo.md";
+import bugTracker from "../../markdowns/BugTracker.md";
 import rubrica from "../../markdowns/Rubrica.md";
 import colorSpill from "../../markdowns/ColorSpill.md";
-import drinkolo from "../../markdowns/Drinkolo.md";
 import sortVisualizer from "../../markdowns/SortVisualizer.md";
 import tech4GamingDeals from "../../markdowns/Tech4GamingDeals.md";
 import catchy from "../../markdowns/Catchy.md";
@@ -19,6 +20,18 @@ const items = [
   },
   {
     id: 1,
+    title: "Bug Tracker",
+    tags: ["C#", "Asp.Net", "HTML", "CSS", "JavaScript", "jQuery", "AWS"],
+    source: bugTracker,
+    videoUrl: "https://youtu.be/GlIwWnradSA",
+    image: "BugTracker",
+    logo: "BugTracker",
+    imageType: "jpg",
+    rotate: false,
+    height: 250,
+  },
+  {
+    id: 2,
     title: "Rubrica",
     tags: ["JavaScript", "Dart", "Flutter"],
     source: rubrica,
@@ -28,7 +41,7 @@ const items = [
     height: 620,
   },
   {
-    id: 2,
+    id: 3,
     title: "Tech4Gaming Deals",
     tags: ["C#", "Xamarin", "Node.js", "Express.js", "Heroku", "MongoDB"],
     source: tech4GamingDeals,
@@ -38,7 +51,7 @@ const items = [
     height: 680,
   },
   {
-    id: 3,
+    id: 4,
     title: "Color Spill",
     tags: ["C#", "Unity"],
     source: colorSpill,
@@ -48,7 +61,7 @@ const items = [
     height: 680,
   },
   {
-    id: 4,
+    id: 5,
     title: "Catchy",
     tags: ["C#", "Unity"],
     source: catchy,
@@ -60,7 +73,7 @@ const items = [
     rotate: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Sort Visualizer",
     tags: ["React", "JavaScript", "HTML", "CSS"],
     source: sortVisualizer,
@@ -71,7 +84,7 @@ const items = [
     rotate: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio",
     tags: ["React", "JavaScript", "HTML", "CSS", "Netlify"],
     source: portfolio,

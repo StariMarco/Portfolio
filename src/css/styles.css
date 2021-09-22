@@ -885,9 +885,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  column-gap: 8px;
-  row-gap: 8px;
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .project-card__tag {
@@ -897,6 +895,11 @@ p {
   font-size: 12px;
   text-align: center;
   color: #c1c1c1;
+  margin-top: 8px;
+}
+
+.project-card__tags > *:not(:last-child) {
+  margin-right: 8px;
 }
 
 .project__logo {

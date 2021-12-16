@@ -5,12 +5,12 @@
   "contact": "Contattami",
 
   "hero.title": "Ciao! Sono <br> Marco Stari",
-  "hero.subtitle": "Sono uno sviluppatore full stack e non vedo l'ora di lavorare al tuo progetto",
+  "hero.subtitle": "Sarei felicissimo di presentarti alcuni dei progetti a cui ho lavorato come sviluppatore full stack",
   "hero.primary_button": "Contattami",
   "hero.secondary_button": "Scarica Cv",
 
   "about.title": "Chi sono",
-  "about.description": "Marco è un ragazzo che vive a Pordenone in Friuli Venezia Giulia, da sempre <strong>appassionato</strong> di tecnologia ed in particolare <strong>della programmazione</strong>.<br><br>A 12 anni inizia a creare i suoi primi videogiochi con GameMaker e da quel momento non smette più di programmare. Conduce gli studi al <strong>ITST J.F. Kennedy di Pordenone</strong>, indirizzo informatica, durante i quali acquisisce conoscenze tecniche più approfondite sia sul lato HW che sul lato SW.<br><br>Nel mentre continua a <strong>fare esperienza creando vari progetti</strong> usando: c/c++, java, c# con Unity e Xamarin, html/css/js, React js, dart con Flutter, python, shell-script.<br><br>Alcuni di questi diventano anche app vere e proprie venendo anche pubblicate nel play store android.<br>Ora è pronto a fare il salto di qualità e a <strong>creare progetti di scala maggiore.</strong>",
+  "about.description": "Marco è un ragazzo che vive a Pordenone in Friuli Venezia Giulia, da sempre <strong>appassionato</strong> di tecnologia ed in particolare <strong>della programmazione</strong>.<br><br>A 12 anni inizia a creare i suoi primi videogiochi con GameMaker e da quel momento non smette più di programmare. Conduce gli studi al <strong>ITST J.F. Kennedy di Pordenone</strong>, indirizzo informatica, durante i quali acquisisce conoscenze tecniche più approfondite sia sul lato HW che sul lato SW.<br><br>Nel mentre continua a <strong>fare esperienza creando vari progetti</strong> usando: c/c++, java, c# con Unity e Xamarin, html/css/js, React js, dart con Flutter, python, shell-script.<br><br>Alcuni di questi diventano anche app vere e proprie venendo anche pubblicate nel play store android.<br>Ora lavora in Electrolux a Porcia (PN) come dipendente di Akronos Technologies.",
   "experience": "🧑🏼‍💻 Esperienza",
   "energy": "⚡️ Energia",
   "passion": "🔥 Passione",

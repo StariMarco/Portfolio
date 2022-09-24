@@ -51,6 +51,7 @@ const ProjectCard = ({project}) => {
               className="hero__image"
               src={`assets/mockups/${image}.${imageType}`}
               alt="The cover image of the project"
+              className="project-picture"
               style={imageStile}
             />
           </picture>

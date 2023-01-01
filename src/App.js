@@ -19,7 +19,10 @@ const App = () => {
 
   return (
     <>
-      <Router>
+      <div style={{paddingLeft: '20px'}}>
+        <p>Loading 2023...</p>
+      </div>
+      {/* <Router>
         <NavBar onChangeLanguage={changeLanguage} />
         <div className="main">
           <Hero />
@@ -28,7 +31,7 @@ const App = () => {
           <Contact />
           <Footer />
         </div>
-      </Router>
+      </Router> */}
     </>
   );
 };
